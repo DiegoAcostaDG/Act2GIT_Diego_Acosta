@@ -1,0 +1,101 @@
+    
+        /*Cuerpo de la página coge el fondo de una url externa, lo subo así para que pese menos pero lo normal sería tener una carpeta imagenes y sacarla desde esa ruta.*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 90vh; 
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-abstracto-nebulosa-ultra-detallado-8_1562-753.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1728259200&semt=ais_hybrid); 
+        }
+        /*Estilo de la tabla*/
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            height: 100%;
+            width: 90%;   
+        }
+        th, td {
+            padding: 10px;
+            width: auto;
+            height: auto;
+            border: 5px solid black;
+            font-weight: 500;
+            
+        }
+        th {
+            background-color: grey;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        td {
+            background-color: darkgray;
+            font-size: 22px;
+        }
+        /*Identificador Horario con el google Font aplicado, se le ha añadido sombreado quitado el borde de la tabla y añadido opacidad para transparentar el fondo. */
+        #horario{
+            background-color: rgba(255, 255, 255, 0.01); 
+            text-shadow: 8px 5px 4px black;
+            font-family: "Holtwood One SC", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 50px;
+            color: white;
+            border: none;
+        }
+        /* Clase para descanso tiene espaciado de letra y sombreado. */
+        .descanso{
+            background-color: darkgray;
+            font-size: 35px;
+            text-shadow: 8px 5px 4px black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 35px;
+            color: white;
+            font-style: italic;
+        }
+        /*Clase para fiesta tiene espaciado de letra, sombreado y está orientado de forma vertical.*/
+        .fiesta{
+            background-color: darkgray;
+            font-size: 35px;
+            text-shadow: 8px 5px 4px black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 35px;
+            color: white;
+            writing-mode: vertical-rl;
+        }
+        /* Clases para las asignaturas cada asignatura tiene un color de fondo y estilo de letra diferente.*/
+        .progr{
+            background-color: lightcoral;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .badat{
+            background-color: lightsalmon;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .sasp{
+            background-color: rgb(235, 207, 156);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .ipe{
+            background-color: rgb(207, 176, 237);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .lmsgi{
+            background-color: rgb(172, 106, 106);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .siinf{
+            background-color: rgb(175, 219, 243);
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .endes{
+            background-color: lightgreen;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .daspgs{
+            background-color: lightpink;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
