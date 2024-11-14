@@ -5,7 +5,7 @@ body {
     color: #333; 
 }
 header {
-    background-color: black; 
+    background-color: #1e1e1e; 
     color: lightgreen; 
     text-align: center;
     padding: 20px 0;
@@ -41,7 +41,7 @@ img{
     height: 50%;
 }
 footer {
-    background-color: black; 
+    background-color: #1e1e1e; 
     color: lightgreen; 
     text-align: center;
     padding: 20px 0;
